@@ -106,4 +106,5 @@ else
   echo "Please, create a proper properties file before executing this script"
 fi
 
-exit $?
+# if used, it forces the shell to exit
+# exit $?
